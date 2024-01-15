@@ -1,7 +1,7 @@
 # Plataforma de Autenticación con Flask
 
 ## Descripción
-Bienvenido a este Authentication, una aplicación web potenciada por Flask que ofrece una funcionalidad de autenticación y una experiencia de inicio de sesión.
+Bienvenido a Authentication, una aplicación web potenciada por Flask que ofrece una funcionalidad de autenticación y una experiencia de inicio de sesión.
 
 ## Tecnologías Utilizadas
 - Flask: Framework web ágil y potente de Python
@@ -43,7 +43,7 @@ pip install pymysql
        ```bash
        source venv/bin/activate
        ```
-2. ** Configura la base de datos en config.py **
+2. **Configura la base de datos en config.py**
 ```
 SQLALCHEMY_DATABASE_URI='mysql+pymysql://tu_usuario:tu_contraseña@localhost:3306/tu_basededatos'
 ```
