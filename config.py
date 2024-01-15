@@ -5,12 +5,12 @@ class Config:
     
     #configuracion  de base de datos
     SQLALCHEMY_TRACK_MODIFICATIONS=False
-    SQLALCHEMY_DATABASE_URI='mysql+pymysql://root:S251094v@127.0.0.1:3306/mipagina'
+    SQLALCHEMY_DATABASE_URI='mysql+pymysql://tu_usuario:tu_contraseña@localhost:3306/tu_basededatos'
 
 class ProductionConfig(Config):
     DEBUG=False
     
 class DevelopmentConfig(Config):
-    SECRET_KEY='1234'
+    SECRET_KEY='tu_clave_secreta'
     DEBUG=True
     TESTING=True
