@@ -1,8 +1,7 @@
 # Plataforma de Autenticación con Flask
 
 ## Descripción
-Bienvenido a Authentication, una aplicación web potenciada por Flask que ofrece una funcionalidad de autenticación y una experiencia de inicio de sesión.
-
+Bienvenido a Authentication, un sistema de autenticacion impulsado con Flask
 ## Tecnologías Utilizadas
 - Flask: Framework web ágil y potente de Python
 ```bash
